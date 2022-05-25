@@ -1,5 +1,3 @@
-pandoc in1.txt -o out.txt --filter main.py
-
 ## header
 
 # header
@@ -8,6 +6,12 @@ Word **BOLD** and word bold
 
 # header 2
 
-#### HEADER 2
+### HEADER 2
 
-bold
+Second **BOLD**
+
+#### HEADER 3
+
+######### HEADER 4
+
+pandoc input.txt -o out.txt --filter main.py
